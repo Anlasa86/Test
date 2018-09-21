@@ -47,7 +47,8 @@ int main(int argc, char** argv) {
     fprintf(gnuplotPipe, "%s \n", commandsForGnuplot[i]); //Send commands to gnuplot one by one.
     fflush(gnuplotPipe);
     }
-    printf("Hola Git");
+
+    printf("Hola dos");
 //    fclose(gnuplotPipe);
 //    fflush(gnuplotPipe);
     return (EXIT_SUCCESS);
